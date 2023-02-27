@@ -16,8 +16,8 @@ import mysql.connector
 import pandas as pd
 
 mydb = mysql.connector.connect(host="localhost",
-                               user="shaily08",
-                               password="shailyk7981",
+                               user="root",
+                               password="password",
                                database="bank")
 mycursor = mydb.cursor()
 
